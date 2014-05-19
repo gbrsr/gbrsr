@@ -1,0 +1,276 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #444;
+}
+
+html, body {
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+a {
+  color: rgb(235, 121, 85);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .7
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 1em/1.5em 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 5% auto;
+    max-width: 768px;
+    height: 86%;
+    display: table;
+}
+
+.row {
+  display: table-row;
+}
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1.3em;
+    margin: .3em 0;
+}
+
+.main {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+figure.avatar {
+  width: 6em;
+  height: 6em;
+  overflow: hidden;
+  border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+}
+
+figure.avatar img {
+  width: 6em;
+  height: auto;
+}
+
+ul.social {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+ul.social li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+}
+
+ul.social li a {
+  color: #333332;
+  opacity: .5;
+  padding: 1em 1em 1em 0;
+  display: block;
+}
+
+ul li a:hover {
+  opacity: 1;
+}
+
+li.twitter a:hover {
+  color: #55acee;
+}
+
+li.pinterest a:hover {
+  color: #cc2127;
+}
+
+li.instagram a:hover {
+  color: #3f729b;
+}
+
+li.dribbble a:hover {
+  color: #ea4c89;
+}
+
+li.medium a:hover {
+  color: #333332;
+}
+
+li.medium a img {
+  width: 28px;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+li.rdio a img {
+  width: 18px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.btn i.fa {
+  margin-right: .3em;
+}
+
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+
+ul.inline li {
+  display: inline;
+  margin: 0 .3em;
+}
+
+ul.inline li:first-child {
+  margin: 0;
+}
+
+.btn {
+  width: 100%;
+  background: rgb(235, 121, 85);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 0;
+  border-radius: .5em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  border-top: 1px solid #ddd;
+  font-size: .9em;
+}
+
+.email {
+  padding: 1em 0;
+  float: right;
+}
+
+@media only screen and (min-width: 481px) {
+  footer {
+    width: 100%;
+    float: left;
+    position: relative;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    margin: 10% auto;
+    height: 73%;
+  }
+
+  footer {
+    width: 73%;
+  }
+
+  figure.avatar {
+    float: left;
+    margin: 0 2em 0 0;
+    width: 9em;
+    height: 9em;
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+  }
+
+  figure.avatar img {
+    width: 9em;
+  }
+  .btn {
+    padding: 1em 1.5em;
+    width: inherit;
+  }
+}
