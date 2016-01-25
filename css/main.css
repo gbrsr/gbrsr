@@ -176,7 +176,11 @@ li.dribbble a:hover {
   color: #ea4c89;
 }
 
-li.medium a:hover {
+li.spotify a:hover {
+    color: #2ebd59;
+}
+
+/*li.medium a:hover {
   color: #333332;
 }
 
@@ -190,7 +194,9 @@ li.rdio a img {
   width: 18px;
   vertical-align: top;
   margin-top: 3px;
-}
+}*/
+
+
 
 .btn i.fa {
   margin-right: .3em;
