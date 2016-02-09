@@ -4,7 +4,7 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-    Gabe Rosser -- The Stuff -- @gabrielrosser
+    Gabe Rosser -- The Stuff -- @gbrsr
 
 # THANKS
 
