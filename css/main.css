@@ -64,7 +64,7 @@ a:hover {
    ========================================================================== */
 
 body {
-    font: 1em/1.5em 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font: 1em/1.5em 'Barlow', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .wrapper {
@@ -106,6 +106,10 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h1 {
