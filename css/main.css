@@ -64,7 +64,7 @@ a:hover {
    ========================================================================== */
 
 body {
-    font: 1em/1.5em 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font: 1em/1.5em 'Barlow', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .wrapper {
@@ -108,9 +108,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 h1 {
     font-size: 3em;
-    font-weight: 100;
     line-height: 1.3em;
     margin: .3em 0;
 }
