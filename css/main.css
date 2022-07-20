@@ -69,7 +69,7 @@ a:hover {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
+body, .btn {
     font: 1em/1.5em 'Barlow', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -89,17 +89,12 @@ nav ul {
     padding: 0;
 }
 
-nav a {
+nav a, a.nav-link {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
 
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: #e7e1dd;
-    background: #e44d26;
+    color: #ffcc00;
 }
 
 nav a:hover,
@@ -110,15 +105,19 @@ nav a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .logo {
   font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.logo {
+  color: #E7E1DD;
 }
 
 h1 {
     font-size: 3em;
     font-weight: 100;
     line-height: 1.3em;
-    margin: .3em 0;
+    margin-top: 0;
 }
 
 .main {
@@ -253,13 +252,12 @@ ul.inline li:first-child {
 }
 
 .btn {
-  width: 100%;
-  background: rgb(235, 121, 85);
+  background: rgb(0, 0, 0);
   color: white;
   display: inline-block;
   text-align: center;
-  padding: 1em 0;
-  border-radius: .5em;
+  font-size: 1.4rem;
+  border: 0 none;
   text-decoration: none;
 }
 
